@@ -9,3 +9,13 @@ for(let i = 1; i<= 16*16; i++){
     })
     container.appendChild(div);
 }
+function reset() {
+    const cells = document.querySelectorAll(".cell");
+    cells.forEach(cells => {
+        cells.style.background = "white";
+    });
+}
+const resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", ()=>{
+    reset();
+})

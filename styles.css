@@ -15,3 +15,9 @@ body{
     border: 1px solid #ddd;
     box-sizing: border-box;
 }
+button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
